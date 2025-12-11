@@ -14,8 +14,6 @@ from kivy.core.audio import SoundLoader
 from kivy.uix.screenmanager import Screen, ScreenManager 
 from kivy.properties import StringProperty, NumericProperty, OptionProperty, BooleanProperty 
 import random
-import time
-import asyncio
 from jnius import autoclass
 
 Toast = autoclass('android.widget.Toast')
